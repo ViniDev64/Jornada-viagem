@@ -1,23 +1,27 @@
-header {
+.main-header {
   background-color: var(--background-tertiary-color);
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
+  justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px;
   position: relative;
 }
+
 .logo {
   display: inline-block;
   width: 68px;
   height: 64px;
 }
+
 .img-mobile {
   display: block;
 }
+
 .img-desktop {
   display: none;
 }
+
 .navigation-menu {
   margin-top: 24px;
 }
@@ -34,12 +38,15 @@ input[type="checkbox"]:checked ~ nav {
 nav {
   display: none;
 }
+
 .list-links {
   list-style: none;
 }
+
 .list-links li {
   margin: 16px 0;
 }
+
 .list-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;
@@ -70,7 +77,7 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
+  .main-header {
     padding: 38px 120px;
   }
   .logo {
@@ -83,13 +90,13 @@ nav {
   .img-mobile {
     display: none;
   }
-
   .navigation-menu a:hover {
     color: var(--primary-color);
   }
 }
+
 @media screen and (min-width: 1920px) {
-  header {
+  .main-header {
     padding: 38px 160px;
   }
 }
