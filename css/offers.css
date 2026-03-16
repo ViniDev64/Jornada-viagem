@@ -1,4 +1,4 @@
-.offers{
+.offers {
   margin-bottom: 104px;
 }
 
@@ -21,10 +21,6 @@
 }
 
 .offers-cards .card header {
-  display: block;
-  background: transparent;
-  position: static;
-  padding: 0;
   margin-bottom: 24px;
 }
 .offers-cards .card header p {
